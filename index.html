@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Frank-Line Constructions</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial;}
+
+body{background:#f5f5f5;}
+
+header{
+background:#7c0308;
+color:white;
+display:flex;
+align-items:center;
+justify-content:center;
+position:relative;
+padding:15px;
+}
+
+header img{position:absolute;left:20px;height:50px;}
+
+header h1{color:#ffde59;font-size:22px;}
+
+nav{
+background:white;
+text-align:center;
+padding:10px;
+}
+
+nav a{
+display:inline-block;
+margin:5px;
+padding:10px 15px;
+background:#ffde59;
+color:#7c0308;
+text-decoration:none;
+border-radius:5px;
+font-weight:bold;
+}
+
+.hero{
+height:300px;
+background:url('hero.jpg') center/cover;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.hero h2{
+background:rgba(0,0,0,0.6);
+color:white;
+padding:15px;
+border-radius:8px;
+}
+
+section{
+padding:25px;
+text-align:center;
+}
+
+.fab-container{
+position:fixed;
+right:15px;
+bottom:15px;
+display:flex;
+flex-direction:column;
+gap:12px;
+z-index:999;
+}
+
+.fab{
+width:55px;height:55px;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.whatsapp{background:#25D366;}
+.call{background:#1e90ff;}
+.email{background:#7c0308;}
+
+.fab svg{width:26px;height:26px;fill:white;}
+</style>
+</head>
+
+<body>
+
+<header>
+<img src="logo.png">
+<h1>FRANK-LINE CONSTRUCTIONS</h1>
+</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="services.html">Services</a>
+<a href="projects.html">Projects</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<div class="hero">
+<h2>Always Flexible and Reliable</h2>
+</div>
+
+<section>
+<h2>Welcome</h2>
+<p>Trusted construction company delivering quality work.</p>
+</section>
+
+<section>
+<h2>Reviews</h2>
+<p>⭐ Professional and reliable service!</p>
+</section>
+
+<!-- FLOATING BUTTONS -->
+<div class="fab-container">
+
+<a class="fab whatsapp" href="https://wa.me/260975989284" target="_blank">
+<svg viewBox="0 0 32 32"><path d="M19.11 17.53c-.28-.14-1.64-.81-1.89-.9-.25-.09-.43-.14-.61.14-.18.28-.7.9-.86 1.08-.16.18-.32.2-.6.07-.28-.14-1.17-.43-2.23-1.38-.83-.74-1.39-1.65-1.55-1.93-.16-.28-.02-.43.12-.57.12-.12.28-.32.42-.48.14-.16.18-.28.28-.46.09-.18.05-.35-.02-.49-.07-.14-.61-1.47-.84-2.01-.22-.53-.45-.46-.61-.47h-.52c-.18 0-.47.07-.72.35-.25.28-.95.93-.95 2.26s.98 2.62 1.12 2.8c.14.18 1.93 2.95 4.68 4.13.65.28 1.16.45 1.56.58.66.21 1.26.18 1.73.11.53-.08 1.64-.67 1.87-1.31.23-.64.23-1.19.16-1.31-.07-.12-.25-.2-.53-.34z"/></svg>
+</a>
+
+<a class="fab call" href="tel:+260975989284">
+<svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.21c1.21.48 2.53.73 3.88.73a1 1 0 011 1V20a1 1 0 01-1 1C10.07 21 3 13.93 3 5a1 1 0 011-1h3.5a1 1 0 011 1c0 1.35.25 2.67.73 3.88a1 1 0 01-.21 1.11l-2.4 2.8z"/></svg>
+</a>
+
+<a class="fab email" href="mailto:franklineconstruction25@gmail.com">
+<svg viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+</a>
+
+</div>
+
+</body>
+</html>
